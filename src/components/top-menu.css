@@ -1,0 +1,16 @@
+ul {
+  display: inline-block;
+  width: 60%;
+}
+
+figure {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+figure .inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

@@ -1,0 +1,87 @@
+.app-header .container {
+  position: relative;
+}
+
+.app-logo {
+  max-width: 50px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+a.navbar-brand {
+  margin-left:2em;
+  font-size: 1.35em;
+  margin-left:0em;
+}
+
+.sub-header {
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+.sub-header .container {
+  min-height: 450px;
+}
+
+.main {
+  padding:1em 0;
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+
+p {
+  margin:0 0 1em;
+  padding: 0 .5em;
+}
+
+.app-title {
+  text-align: center;
+}
+
+section.dishes {
+  margin-bottom: 3em;
+}
+
+.dishlist {
+  background: #f2f5f8;
+  padding: 10px 0;
+  border-bottom: 1px dotted lightgray;
+  clear: both;
+  
+}
+
+.dishlist ul {
+  padding-left:20px;
+  margin-bottom: 0;
+  margin:7px 0 10px;
+  
+}
+
+.dishlist ul li {
+  list-style: none;
+  color:#363636;
+  
+}
+
+.dishlist img.dish-img {
+  max-width: 179px;
+  margin:7px 0 10px;
+  margin-right: 20px;
+  float: right;
+  width:100%;
+  height: auto;
+  cursor: pointer;
+}
+
+.dishlist ul li:last-child {
+  margin-bottom: 1em;
+}
+
+.dishlist .dish-data {
+  color:red;
+  margin-left: 7px;
+}
